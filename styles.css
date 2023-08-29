@@ -74,6 +74,7 @@ li {
     border-radius: 10px;
     position: absolute;
     padding: 2%;
+    margin-top: 1%;
 }
 a {
     text-decoration: none;
@@ -86,7 +87,21 @@ a:hover {
     margin-left: 5%;
 }
 .dropbtn {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
     width: 100px;
+    height: auto;
+    background-color: transparent;
+    color: var(--grayishBlue);
+}
+.dropbtn:hover {
+    color: var(--white);
+    text-decoration: underline;
+    cursor: pointer; 
+}
+.fa-solid{
+    text-decoration: none;
 }
 /*************Hero*****/
 .hero {
